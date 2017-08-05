@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ARS MovieInfo | Movie Details</title>
+    <!-- <link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://bootswatch.com/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">ARS MovieInfo</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div id="movie" class="well"></div>
+    </div>
+
+    <footer>
+      <div class="container">
+          <p><a href="https://virtuosars.github.io/ArsS/">Ankush Sankhe</a></p>
+      </div>
+    </footer>
+
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    getMovie();
+  </script>
+  </body>
+</html>
