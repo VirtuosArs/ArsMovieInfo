@@ -70,7 +70,7 @@ function getMovie(){
         </div>
         <div class="row">
           <div class="well">
-            <h3>Overview</h3>
+            <h3>Plot</h3>
             ${movie.overview}
             <hr>
             <a href="http://imdb.com/title/${movie.imdb_id}" target="_blank" class="btn btn-primary">View IMDB</a>
