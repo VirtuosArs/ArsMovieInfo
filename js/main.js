@@ -53,7 +53,7 @@ function getMovie(){
       let output =`
         <div class="row">
           <div class="col-md-4">
-            <img onerror="handleMissingImg(this);" src="http://image.tmdb.org/t/p/w185/`+movie.poster_path+`" class="thumbnail">
+            <img onerror="handleMissingImg(this);" src="https://image.tmdb.org/t/p/w185/`+movie.poster_path+`" class="thumbnail">
           </div>
           <div class="col-md-8">
             <h2>${movie.title}</h2>
